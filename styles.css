@@ -1,0 +1,60 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color:rgb(5, 46, 16);
+    text-decoration:black;
+    font-weight: 700;
+    
+}
+
+.navbar a {
+    font-size: 18px;
+    color:blanchedalmond;
+    text-decoration: none;
+    font-weight: 450;
+    margin-left:35px;
+    transition: .3s;
+}
+
+
+.navbar a:hover,
+.navbar a:active {
+    color:hsl(119, 84%, 35%);
+}
+
+.home {
+    height: 100vh;
+    background: linear-gradient(-90deg, #01301f 55%, blanchedalmond 45%)
+}
+
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+
+.home.sect {
+    position: absolute; left: 80px; top: 20px; 
+}
